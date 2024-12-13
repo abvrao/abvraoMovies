@@ -111,7 +111,7 @@ function App() {
       <Router>
         <header className="sticky top-0 bg-gray-400 text-white items-center flex 
         flex-wrap gap-5 justify-between p-5 mb-10 z-50">
-          <h1 className="text-3xl font-extrabold">Guvi Movies Application</h1>
+          <h1 className="text-3xl font-extrabold">Movies Search Application</h1>
           <SearchBar onSearch = {handleSearch}/>
           <div className="flex flex-wrap gap-5 justify-between">
               <FilterDropdown onFilterChange = {handleFilterChange}/>
